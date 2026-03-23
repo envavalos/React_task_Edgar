@@ -6,10 +6,10 @@
 }
 .medio {
   display: flex;
-  justify-content: center; /* Centra los botones horizontalmente */
-  gap: 10px;               /* Añade separación entre los botones */
-  padding: 20px;           /* Espacio interno */
-  margin-bottom: 30px;     /* Separa el menú del contenido (Exercici 1) */
+  justify-content: center;
+  gap: 10px;              
+  padding: 20px;          
+  margin-bottom: 30px;   
 }
 .medio button {
   padding: 10px 15px;
@@ -19,5 +19,5 @@
 }
 
 .medio button:hover {
-  background-color: #646cff; /* Cambia de color al pasar el ratón */
+  background-color: #646cff; 
 }
