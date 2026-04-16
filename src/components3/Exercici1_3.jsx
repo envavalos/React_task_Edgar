@@ -11,7 +11,7 @@ function Exercici1_3({ imatge, titol, text_paragraf, enllaç_boto, enllaç_boto2
         <h2 style={{ margin: '0 0 8px', fontWeight: '400', color: '#e2e2e2', textAlign: 'left' }}>{titol}</h2>
         <p style={{ margin: 0, fontSize: '14px', color: '#c5bebe', lineHeight: '1.5', textAlign: 'left' }}>{text_paragraf}</p>
       </div>
-
+     
       <div style={{ padding: '8px', display: 'flex', gap: '10px', marginTop: 'auto'}}>
         <button onClick={() => window.open(enllaç_boto)} style={{ background: 'none', border: 'none', color: '#1976d2', fontWeight: 'bold', cursor: 'pointer', textAlign: 'left' }}>{text_boto}</button>
         <button onClick={() => window.open(enllaç_boto2)} style={{ background: 'none', border: 'none', color: '#1976d2', fontWeight: 'bold', cursor: 'pointer', textAlign: 'left' }}>{text_boto2}</button>

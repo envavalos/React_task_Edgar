@@ -9,6 +9,7 @@ function Menu({ canviarTasca }) {
     "Exercici 1_3",
     "Exercici 1_4",
     "Exercici 1_4_2",
+    "Exercici 1_5",
   ];
 
   function onClickMenuItem(item) {

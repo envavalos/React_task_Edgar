@@ -11,6 +11,7 @@ import Exercici1_3 from "./components3/Exercici1_3";
 import Exercici1_4 from "./components4/Exercici1_4";
 import Exercici1_4_2 from "./components4/Exercici1_4_2";
 import Grid from '@mui/material/Grid';
+import TaskList from "./components5/TaskList";
 
 function App() {
   const [tarea, setTarea] = useState("Exercici 1");
@@ -142,6 +143,8 @@ function App() {
           </Grid>);
       case "Exercici 1_4_2":
         return <Exercici1_4_2 />;
+      case "Exercici 1_5":
+        return <TaskList />;
       default:
         return null;
     }
